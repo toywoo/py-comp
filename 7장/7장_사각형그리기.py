@@ -18,3 +18,5 @@ t.up()
 t.goto(200, 0)
 t.down()
 square(100)
+
+turtle.mainloop()

@@ -2,7 +2,7 @@ import turtle
 t = turtle.Turtle()
 
 def square(length):
-    for in in range(4):
+    for i in range(4):
         t.fd(length)
         t.left(90)
 
@@ -17,3 +17,5 @@ def drawit(x, y):
 
 s = turtle.Screen()
 s.onscreenclick(drawit)
+
+turtle.mainloop()
